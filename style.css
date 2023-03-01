@@ -1,0 +1,32 @@
+body{
+  background-color:black;
+  color:whitesmoke;
+}
+main{
+  margin:20px;
+  text-align:center;
+}
+img{
+  width:100%;
+}
+
+.edit{
+  position:absolute;
+  font-size:12px;
+  right:25px;
+  top:30px;
+  width:40px;
+  height:40px;
+
+  background-color:whitesmoke;
+
+  color:black;
+}
+.indexArea{
+  margin:10px;
+  text-align: left;
+}
+.indexArea a{
+  color:ghostwhite;
+  text-decoration: none;
+}
