@@ -2,6 +2,7 @@ const URL_db = 'https://script.google.com/macros/s/AKfycbyHb6NzxzJG-CyROx94j3kB2
 
 //画像のデータ
 let imageData;
+
 fetch(URL_db)
     .then((response) => {
       return response.json();
@@ -32,23 +33,4 @@ function makeImages(path){
     imagesArea.appendChild(img_element);
   }
 }
-
-
-let postparam = {
-  "method" : "POST",
-  "mode" : "no-cors",
-  "Content-Type" : "application/x-www-form-urlencoded",
-  "body" : JSON.stringify(imageData),
-};
-
-
-//送る
-// fetch(URL_db, postparam)
-//     .then((response) => {
-//       console.log('成功');
-//     })
-//     .catch((error) => {
-//       console.log('失敗');
-//     });
-
 
